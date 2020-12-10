@@ -1,5 +1,6 @@
 import { logger, parseLinesToArray, readFileContent } from "../utils";
-// // DAY 1
+
+// convert to array
 const getEntries = (data) => parseLinesToArray(data).map(Number);
 
 // // 2 numbers with sum 2020
