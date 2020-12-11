@@ -3,7 +3,7 @@ import { logger, parseLinesToArray, readFileContent } from "../utils";
 // convert to array
 const getEntries = (data) => parseLinesToArray(data).map(Number);
 
-// // 2 numbers with sum 2020
+// 2 numbers with sum 2020
 function getMatchedDuo(entries) {
   const matchedDuo = [];
   for (let i = 0; i < entries.length - 1; i++) {
@@ -17,7 +17,7 @@ function getMatchedDuo(entries) {
   return matchedDuo.reduce((a, b) => a * b);
 }
 
-// // 3 numbers with sum 2020
+// 3 numbers with sum 2020
 function getMatchedTrio(entries) {
   const matchedTrio = [];
   for (let i = 0; i < entries.length - 2; i++) {
